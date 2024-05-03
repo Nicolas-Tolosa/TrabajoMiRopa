@@ -1,0 +1,98 @@
+* {
+    font-family: roboto, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(13, 110, 253);
+    color: white;
+}
+
+nav div h1 {
+    margin-left: 50px;
+}
+
+ul {
+    display: flex;
+    margin-inline: 30px;
+}
+
+nav ul li {
+    text-decoration: none;
+    list-style: none;
+}
+ul li {
+    margin: 15px;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 34px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+
+main {
+    display: block;
+    background-color: white;
+    padding: 60px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cards {
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgray;
+    border-image: initial;
+    border-radius: 25px;
+    flex: 1 1 400px;
+}
+
+.cards img {
+    width: 100%;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+h3 {
+    padding-left: 10px;
+}
+p {
+    padding-left: 10px;
+    padding-block: 10px;
+}
+
+button {
+    background-color: rgb(13, 110, 253);
+    color: white;
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    background-color: chartreuse;
+}
+
+
